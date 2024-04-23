@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <title>TPRP - Third-Party Recruitment Specialists</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="keywords" content="Recruit Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+	SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
+    <link rel="icon" href="favicon.jpg" type="image/gif">
+    <style>
+        .card-img-top {
+            height: 348px;
+        }
+
+        #explore {
+            text-decoration: none;
+            color: black;
+        }
+
+        .animate-on-scroll {
+            opacity: 0;
+            transform: translateY(50px);
+            transition: opacity 0.8s ease, transform 0.8s ease;
+        }
+
+        .animate-on-scroll.animated {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        #logo{
+            width: 85px;
+            height: 70px;
+        }
+    </style>
+    <script>
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+
+        function isElementInViewport(element) {
+            var rect = element.getBoundingClientRect();
+            return (
+                rect.top >= 0 &&
+                rect.left >= 0 &&
+                rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+                rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+            );
+        }
+
+        function animateElementsOnScroll() {
+            var elements = document.querySelectorAll('.animate-on-scroll');
+            elements.forEach(function (element) {
+                if (isElementInViewport(element)) {
+                    element.classList.add('animated');
+                }
+            });
+        }
+
+        window.addEventListener('scroll', animateElementsOnScroll);
+
+    </script>
+    <!-- Custom Theme files -->
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet" media="all">
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+    <!-- font-awesome icons -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <!-- //Custom Theme files -->
+    <!-- online-fonts -->
+    <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Slider -->
+    <div class="w3-banner-info-w3ltd position-relative">
+        <!-- header -->
+        <header>
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light p-0">
+                    <img id="logo" src="TPRP_FINAL-removebg-preview (1) (2).png" alt="">
+                    <button class="navbar-toggler ml-lg-auto ml-sm-5 bg-light" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="ml-lg-5 navbar-nav mr-lg-auto">
+                            <li class="nav-item active  mr-lg-4 mt-lg-0 mt-sm-4 mt-3">
+                                <a href="index.html">Home</a>
+                            </li>
+
+                            <li class="nav-item  mr-lg-4 mt-lg-0 mt-sm-4 mt-3">
+                                <a href="about.html">About</a>
+                            </li>
+
+
+                            <li class="nav-item mr-lg-4 my-lg-0 mb-sm-4 mb-3">
+                                <a href="courses.html">Courses</a>
+                            </li>
+
+                            <li class="nav-item mr-lg-4 my-lg-0 mb-sm-4 mb-3">
+                                <a href="contact.html">contact</a>
+                            </li>
+                        </ul>
+                        <!-- <button type="button" class="btn w3ls-btn text-uppercase font-weight-bold d-block" data-toggle="modal"
+                            aria-pressed="false" data-target="#exampleModal1">
+                            Register
+                        </button>
+                        <button type="button" class="btn w3ls-btn btn-2 ml-lg-1 text-uppercase font-weight-bold d-block"
+                            data-toggle="modal" aria-pressed="false" data-target="#exampleModal">
+                            Sign in
+                        </button> -->
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!-- //header -->
+        <div class="slider">
+            <ul class="rslides" id="slider">
+                <li>
+                    <div class="d-flex banner-w3pvt-bg1 common-bg">
+                        <div class="d-flex mx-auto align-items-center justify-content-center flex-column">
+                            <div class="bnr-w3pvt">
+                                <h3>Elevate Your Skills with TPRP</h3>
+                                <div class="d-flex justify-content-between bnr-sub-txt align-items-center">
+                                    <span></span>
+                                    <p class="text-uppercase text-white"> Learn Anywhere, Anytime!</p>
+                                    <span></span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="d-flex banner-w3pvt-bg2 common-bg">
+                        <div class="d-flex mx-auto align-items-center justify-content-center flex-column">
+                            <div class="bnr-w3pvt">
+                                <h3>Discover Your Passion </h3>
+                                <div class="d-flex justify-content-between bnr-sub-txt align-items-center">
+                                    <span></span>
+                                    <p class="text-uppercase text-white">TPRP's Online Courses Await You!</p>
+                                    <span></span>
+                                </div>
+                            </div>
+                            <!-- <div class="row justify-content-between bnr-form-w3ls">
+                                <div class="col-lg-4">
+                                    <h4>A better career is out there. We'll help you find it to use.</h4>
+                                </div>
+                                <div class="col-lg-8">
+                                    <form action="job_list.html" method="post" class="bnr-field">
+                                        <div class="row">
+                                            <div class="col-md-5 form-group mb-md-0">
+                                                <label class="text-capitalize">
+                                                    looking for job
+                                                </label>
+                                                <input class="form-control" type="text" name="name" required=""
+                                                    placeholder="Job title,Keywords">
+                                            </div>
+                                            <div class="col-md-5 mb-md-0 form-group">
+                                                <label class="text-capitalize">
+                                                    place to work
+                                                </label>
+                                                <input class="form-control" type="text" name="place" required=""
+                                                    placeholder="City,State,zip">
+                                            </div>
+                                            <div class="col-md-2 d-flex align-items-end">
+                                                <button type="submit"
+                                                    class="btn btn-w3ltd bg-theme btn-block w-100 font-weight-bold text-uppercase"><span
+                                                        class="fa fa-search"></span></button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="d-flex banner-w3pvt-bg3 common-bg">
+                        <div class="d-flex mx-auto align-items-center justify-content-center flex-column">
+                            <div class="bnr-w3pvt">
+                                <h3>Your Gateway to Success</h3>
+                                <div class="d-flex justify-content-between bnr-sub-txt align-items-center">
+                                    <span></span>
+                                    <p class="text-uppercase text-white">Begin Your Journey with TPRP</p>
+                                    <span></span>
+                                </div>
+                            </div>
+                            <!-- <div class="row justify-content-between bnr-form-w3ls">
+                                <div class="col-lg-4">
+                                    <h4>A better career is out there. We'll help you find it to use.</h4>
+                                </div>
+                                <div class="col-lg-8">
+                                    <form action="job_list.html" method="post" class="bnr-field">
+                                        <div class="row">
+                                            <div class="col-md-5 form-group mb-md-0">
+                                                <label class="text-capitalize">
+                                                    looking for job
+                                                </label>
+                                                <input class="form-control" type="text" name="name" required=""
+                                                    placeholder="Job title,Keywords">
+                                            </div>
+                                            <div class="col-md-5 mb-md-0 form-group">
+                                                <label class="text-capitalize">
+                                                    place to work
+                                                </label>
+                                                <input class="form-control" type="text" name="place" required=""
+                                                    placeholder="City,State,zip">
+                                            </div>
+                                            <div class="col-md-2 d-flex align-items-end">
+                                                <button type="submit"
+                                                    class="btn btn-w3ltd bg-theme  btn-block w-100 font-weight-bold text-uppercase"><span
+                                                        class="fa fa-search"></span></button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- //Slider -->
+    <!--partners  -->
+    <!-- <div class="w3ltdits-partners bg-theme" id="partners">
+        <div class="container pt-4">
+            <div class="title-wthree text-center">
+                <h3 class="w3ltd-title">
+                    Your Trusted Third-Party Recruitment Partner
+                </h3>
+                <span></span>
+            </div>
+            <ul class="list-unstyled py-md-5 py-3 partners-icon text-center">
+                <li>
+                    <span class="fa fa-lastfm-square" aria-hidden="true"></span>
+                </li>
+                <li>
+                    <span class="fa fa-meanpath" aria-hidden="true"></span>
+                </li>
+                <li>
+                    <span class="fa fa-behance-square" aria-hidden="true"></span>
+                </li>
+                <li>
+                    <span class="fa fa-cc-discover" aria-hidden="true"></span>
+                </li>
+                <li>
+                    <span class="fa fa-cc-stripe" aria-hidden="true"></span>
+                </li>
+                <li>
+                    <span class="fa fa-cc-jcb" aria-hidden="true"></span>
+                </li>
+            </ul>
+        </div>
+    </div> -->
+    <!-- //partners -->
+    <!-- About -->
+    <section class="About-wthree py-3">
+        <div class="container  py-sm-5">
+            <div class="title-sec-w3layouts_pvt text-center">
+                <span class="title-wthree">a world full of possibilities</span>
+                <h4 class="w3layouts_pvt-head">allowing you to expand quickly.</h4>
+            </div>
+            <div class="row head-row-home">
+                <div class="col-md-4 my-4 home-grid">
+                    <span class="head-line"></span>
+                    <span class="fa fa-info-circle" aria-hidden="true"></span>
+                    <h4 class="home-title my-3">why choose us</h4>
+                    <p> Learn from seasoned professionals who specialize in personality development.
+                        Choose from online courses, workshops, and personalized coaching.
+                        Explore a wide range of topics, from self-confidence to effective communication.
+                        Get started with our foundational courses at no cost.</p>
+                    <!-- <a href="About.html" class="btn wthree-bnr-btn">Read more</a> -->
+                </div>
+                <div class="col-md-4 my-4 home-grid">
+                    <span class="head-line"></span>
+                    <span class="fa fa-connectdevelop" aria-hidden="true"></span>
+                    <h4 class="home-title my-3">what we do</h4>
+                    <p> Our mission is to provide comprehensive personality development courses that empower you to
+                        thrive personally and professionally.Whether you’re a student, a working professional, or
+                        someone seeking personal growth, TPRP is your partner in transformation. Join us on this journey
+                        of self-discovery and empowerment!
+                    </p>
+                    <!-- <a href="About.html" class="btn wthree-bnr-btn">Read more</a> -->
+                </div>
+                <div class="col-md-4 my-4 home-grid">
+                    <span class="fa fa-users" aria-hidden="true"></span>
+                    <h4 class="home-title my-3">explore yourself</h4>
+                    <p> Through guided introspection, mindfulness practices, and interactive workshops, you’ll gain
+                        valuable insights into your strengths, values, and areas for improvement. Discover the unique
+                        tapestry of your personality and embark on a transformative journey toward self-awareness and
+                        fulfillment.
+                    </p>
+                    <!-- <a href="About.html" class="btn wthree-bnr-btn">Read more</a> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //About -->
+    <!--  Product Overview -->
+    <section class="bg-theme position-relative py-5" id=" Product Overview">
+        <div class="container">
+            <div class="title-sec-w3layouts_pvt text-center">
+                <span class="title-wthree text-white">Empower Your Journey</span>
+                <h4 class="w3layouts_pvt-head">Where Limitless Learning Fuels Your Success!</h4>
+            </div>
+            <div class="row head-row-home">
+                <div class="col-lg-12">
+                    <div class="row ">
+                        <div class="col-md-6 service-title my-sm-5 my-4">
+                            <h4 class="home-title text-white">Unlock Your Potential: Embark on a Transformative Journey
+                                with Seasoned Educators</h4>
+                            <p class="sec-4">
+                                Under the mentorship of seasoned educators, embark on a transformative journey towards
+                                personal growth and development. Their wealth of experience will guide you to surpass
+                                your limits and reach unprecedented heights in your quest for self-improvement.
+
+                            </p>
+                        </div>
+                        <div class="col-md-6 service-title my-md-5">
+                            <h4 class="home-title text-white">Unlock Your Achievements: Attain Globally Recognized
+                                Credentials</h4>
+                            <p class="sec-4">
+                                Open doors to endless opportunities by attaining globally recognized credentials. Our
+                                platform offers a pathway for you to unlock your achievements and showcase your
+                                expertise on a global scale.
+                            </p>
+                        </div>
+                        <div class="col-md-6 service-title mt-md-0 mt-sm-5 mt-4">
+                            <h4 class="home-title text-white">Unleash Your Potential: Access Unlimited Growth through
+                                Virtual Learning</h4>
+                            <p class="sec-4">
+                                Explore a wealth of knowledge from anywhere with our comprehensive virtual learning
+                                opportunities, seamlessly connecting you to a world-class education experience.
+                            </p>
+                        </div>
+                        <div class="col-md-6 service-title mt-md-0 mt-sm-5 mt-4">
+                            <h4 class="home-title text-white">Expand Your Mind: Dive into Our Personality Development
+                                Book Library</h4>
+                            <p class="sec-4">
+                                Dive into our extensive personality development book library and embark on a journey of
+                                self-discovery and growth. With a diverse collection of resources at your fingertips,
+                                you'll find inspiration, guidance, and practical insights to enhance every aspect of
+                                your life.
+                            </p>
+
+                        </div>
+                    </div>
+                    <!-- <div class="mt-4">
+                        <a href="job_list.html" class="btn wthree-bnr-btn">Read more</a>
+                    </div> -->
+                </div>
+
+            </div>
+        </div>
+        <!-- <img src="images/ Product Overview.jpg" alt="" class="img-fluid"> -->
+    </section>
+
+    <section class="container-fluid py-3 animate-on-scroll">
+        <h3 class="text-center home-title py-2">Our Courses </h3>
+        <div class="container">
+
+            <div class="row">
+                <div class="col-12 col-xl-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/6)Mindset Mastery Training (MMC).png" alt="Title" />
+                        <div class="card-body">
+                            <h4 class="card-title  text-center">Mindset Mastery Training</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-xl-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/2)Resilience Coach Training (RCC).jpeg" alt="Title" />
+                        <div class="card-body">
+                            <h4 class="card-title text-center">Resilience Coach Training</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-xl-4 ">
+                    <div class="card">
+                        <img class="card-img-top" src="images/motivation.jpg" alt="Title" />
+                        <div class="card-body">
+                            <h4 class="card-title  text-center">Motivational Speaker Training</h4>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="text-center py-2">
+                <button class="btn btn-primary"><a id="explore" href="courses.html">Explore More</a> </button>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="contact-w3pvt py-lg-5">
+        <div class="container ">
+            <div class="row">
+                <div class="col-12 mx-auto">
+                    <!-- register form grid -->
+                    <div class="register-top1 py-lg-3">
+                        <div class="title-sec-w3layouts_pvt text-center">
+                            <h4 class="w3layouts_pvt-head">How Can We Help You?</h4>
+                        </div>
+                        <form action="#" method="get" class="register-wthree pt-md-5 pb-md-0 py-4">
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label>
+                                            First name
+                                        </label>
+                                        <input class="form-control" type="text" placeholder="  First name" name="email"
+                                            required="">
+                                    </div>
+                                    <div class="col-md-6 mt-md-0 mt-4">
+                                        <label>
+                                            Last name
+                                        </label>
+                                        <input class="form-control" type="text" placeholder="Last name" name="name"
+                                            required="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label>
+                                            Mobile
+                                        </label>
+                                        <input class="form-control" type="text" placeholder="Mobile" name="email"
+                                            required="">
+                                    </div>
+                                    <div class="col-md-6 mt-md-0 mt-4">
+                                        <label>
+                                            Email
+                                        </label>
+                                        <input class="form-control" type="email" placeholder="Email" name="email"
+                                            required="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <label>
+                                            Your message
+                                        </label>
+                                        <textarea placeholder="Type your message here" class="form-control"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-md-12">
+                                    <button type="submit"
+                                        class="btn btn-agile btn-block w-100 font-weight-bold text-uppercase bg-theme"
+                                        onclick="contact()">Send</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <!--  //register form grid ends here -->
+                    <div class="border-pos-wthree border-exp"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer" class="py-sm-5 py-4 bg-theme">
+
+        <div class="container">
+
+            <div class="row  pt-5">
+                <div class="col-lg-4 col-sm-6 footer_grid1">
+                    <h5>Contact Info</h5>
+                    <p>Email: info@tprpindia.com </p>
+                    <p>Phone: +91-7003423812 </p>
+
+
+                </div>
+                <div class="col-lg-4 col-sm-6 mt-sm-0 mt-5">
+                    <h5>Quick links</h5>
+                    <ul class="list-unstyled quick-links">
+                        <li>
+                            <a href="terms.html">
+                                <span class="fa fa-play"></span>Terms and Conditions</a>
+                        </li>
+                        <li>
+                            <a href="refund.html">
+                                <span class="fa fa-play"></span>Refund Policy</a>
+                        </li>
+
+                        <li>
+                            <a href="privacy.html">
+                                <span class="fa fa-play"></span>Privacy Policy</a>
+                        </li>
+
+                        <li>
+                            <a href="service.html">
+                                <span class="fa fa-play"></span>Service Delivery</a>
+                        </li>
+
+
+                    </ul>
+                </div>
+
+
+                <div class="col-lg-4 col-sm-6 mt-lg-0 mt-5">
+                    <h5>subscribe to newsletter</h5>
+                    <form action="#" method="">
+                        <div class="form-group">
+                            <input type="email" class="form-control  border-0 border-rounded" id="emailid"
+                                placeholder="Enter email" name="email" required>
+                        </div>
+                        <div class="">
+                            <button class="btn btn-primary" onclick="popup()">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+    <!-- /Footer -->
+    <div class="cpy-right text-center py-4">
+        <p class="text-dark">© 2024 All rights reserved By TPRP
+        </p>
+    </div>
+    <!-- blog modal1 -->
+    <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel2"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-theme1">
+                    <h5 class="modal-title" id="exampleModalLabel2">Cras ultricies ligula sed magna dictum porta auris
+                        blandita.</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="images/b1.jpg" class="img-fluid" alt="" />
+                    <p class="text-left my-4">
+                        Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur non nulla sit amet nisl
+                        tempus convallis quis ac
+                        lectus. Cras ultricies ligula sed magna dictum porta.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- //blog modal1 -->
+    <!-- blog modal2 -->
+    <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel3"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-theme1">
+                    <h5 class="modal-title" id="exampleModalLabel3">Cras ultricies ligula sed magna dictum porta auris
+                        blandita.</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="images/b2.jpg" class="img-fluid" alt="" />
+                    <p class="text-left my-4">
+                        Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur non nulla sit amet nisl
+                        tempus convallis quis ac
+                        lectus. Cras ultricies ligula sed magna dictum porta.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- //blog modal2 -->
+    <!-- blog modal3 -->
+    <div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel4"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-theme1">
+                    <h5 class="modal-title" id="exampleModalLabel4">Cras ultricies ligula sed magna dictum porta auris
+                        blandita.</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="images/b3.jpg" class="img-fluid" alt="" />
+                    <p class="text-left my-4">
+                        Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur non nulla sit amet nisl
+                        tempus convallis quis ac
+                        lectus. Cras ultricies ligula sed magna dictum porta.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- //blog modal3-->
+    <!-- login modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-theme1">
+                    <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="#" method="post" class="p-3">
+                        <div class="form-group">
+                            <label for="recipient-name" class="col-form-label">Username</label>
+                            <input type="text" class="form-control" placeholder=" " name="Name" id="recipient-name"
+                                required="">
+                        </div>
+                        <div class="form-group">
+                            <label for="password" class="col-form-label">Password</label>
+                            <input type="password" class="form-control" placeholder=" " name="Password" id="password"
+                                required="">
+                        </div>
+                        <div class="right-w3l">
+                            <input type="submit" class="form-control bg-theme" value="Login">
+                        </div>
+                        <div class="row sub-w3l my-3">
+                            <div class="col sub-w3ltd">
+                                <input type="checkbox" id="brand1" value="">
+                                <label for="brand1" class="text-dark">
+                                    <span></span>Remember me?</label>
+                            </div>
+                            <div class="col forgot-w3l text-right">
+                                <a href="#" class="text-dark">Forgot Password?</a>
+                            </div>
+                        </div>
+                        <p class="text-center dont-do">Don't have an account?
+                            <a href="#" data-toggle="modal" data-target="#exampleModal1" class="text-dark">
+                                <strong>Register Now</strong></a>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- //login modal -->
+    <!-- register modal -->
+    <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-theme1">
+                    <h5 class="modal-title" id="exampleModalLabel1">Register</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="#" method="post" class="p-3">
+                        <div class="form-group">
+                            <label for="recipient-name" class="col-form-label">Username</label>
+                            <input type="text" class="form-control" placeholder=" " name="Name" id="recipient-rname"
+                                required="">
+                        </div>
+                        <div class="form-group">
+                            <label for="recipient-email" class="col-form-label">Email</label>
+                            <input type="email" class="form-control" placeholder=" " name="Email" id="recipient-email"
+                                required="">
+                        </div>
+                        <div class="form-group">
+                            <label for="password1" class="col-form-label">Password</label>
+                            <input type="password" class="form-control" placeholder=" " name="Password" id="password1"
+                                required="">
+                        </div>
+                        <div class="form-group">
+                            <label for="password2" class="col-form-label">Confirm Password</label>
+                            <input type="password" class="form-control" placeholder=" " name="Confirm Password"
+                                id="password2" required="">
+                        </div>
+                        <div class="sub-w3l">
+                            <div class="sub-w3ltd">
+                                <input type="checkbox" id="brand2" value="">
+                                <label for="brand2" class="mb-3 text-dark">
+                                    <span></span>I Accept to the Terms & Conditions</label>
+                            </div>
+                        </div>
+                        <div class="right-w3l">
+                            <input type="submit" class="form-control bg-theme" value="Register">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- //register modal -->
+    <!-- js -->
+    <script src="js/jquery-2.2.3.min.js"></script>
+    <!-- Slider-JavaScript -->
+    <script src="js/responsiveslides.min.js"></script>
+    <script>
+        $(function () {
+            $("#slider, #slider1").responsiveSlides({
+                auto: true,
+                nav: false,
+                speed: 1500,
+                namespace: "callbacks",
+                pager: true,
+            });
+        });
+    </script>
+    <!-- //Slider-JavaScript -->
+    <!-- script for password match -->
+    <script>
+        window.onload = function () {
+            document.getElementById("password1").onchange = validatePassword;
+            document.getElementById("password2").onchange = validatePassword;
+        }
+
+        function validatePassword() {
+            var pass2 = document.getElementById("password2").value;
+            var pass1 = document.getElementById("password1").value;
+            if (pass1 != pass2)
+                document.getElementById("password2").setCustomValidity("Passwords Don't Match");
+            else
+                document.getElementById("password2").setCustomValidity('');
+            //empty string means no validation error
+        }
+    </script>
+    <!-- script for password match -->
+    <!-- //js -->
+    <script src="js/move-top.js"></script>
+    <script src="js/easing.js"></script>
+    <script>
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+
+                $('html,body').animate({
+                    scrollTop: $(this.hash).offset().top
+                }, 1000);
+            });
+        });
+    </script>
+    <!-- //end-smooth-scrolling -->
+    <!-- smooth-scrolling-of-move-up -->
+    <script>
+        $(document).ready(function () {
+            /*
+            var defaults = {
+                containerID: 'toTop', // fading element id
+                containerHoverID: 'toTopHover', // fading element hover id
+                scrollSpeed: 1200,
+                easingType: 'linear' 
+            };
+            */
+
+            $().UItoTop({
+                easingType: 'easeOutQuart'
+            });
+
+        });
+    </script>
+    <script src="js/SmoothScroll.min.js"></script>
+    <!-- //smooth-scrolling-of-move-up -->
+    <!-- Bootstrap core JavaScript
+================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
